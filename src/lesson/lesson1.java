@@ -1,3 +1,5 @@
+package lesson;
+
 import java.util.Arrays;
 
 public class lesson1 {
@@ -61,7 +63,7 @@ public class lesson1 {
 
         System.out.print(answer2);
 
-        char[] anwer3 = {'F', 'B'};
+        char[] answer3 = {'F', 'B'};
         int[] numbers = {1, 2, 3, 4, 5};
         System.out.println(Arrays.toString(numbers));
 
