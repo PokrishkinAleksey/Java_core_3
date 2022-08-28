@@ -10,7 +10,7 @@ public class lesson3 {
         Human human3 = new Human(3, 5, "Никодим");
         human.getInfo();
 
-        //System.out.println(human.getWeightInPounds());
+        System.out.println(human.getWeightInPounds());
 
         System.out.println(human.getAge());
         human.setAge(22);
