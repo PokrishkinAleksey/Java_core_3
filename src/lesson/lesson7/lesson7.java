@@ -16,8 +16,8 @@ public class lesson7 {
         Human petr = new Human("Petr", 19, 80);
         Human ivan = new Human("Ivan", 19, 80);
 
-        if (petr.getName().equals(ivan.getName())
-                &&)
+        //if (petr.getName().equals(ivan.getName())
+        //        &&)
 
 
     }
