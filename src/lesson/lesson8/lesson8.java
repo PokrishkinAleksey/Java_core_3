@@ -20,6 +20,8 @@ public class lesson8 {
            int read = reader.read();
            System.out.println(read);
        }
+
+
        reader.close();
 
        BufferedReader bufferedReader = new BufferedReader(new FileReader(path));
@@ -29,7 +31,7 @@ public class lesson8 {
        }
         bufferedReader.close();
 
-        BufferedReader bufferedReader = new BufferedReader(new FileReader(path));
+        BufferedReader bufferedReader2 = new BufferedReader(new FileReader(path));
         while (bufferedReader.ready()) {
             String s = bufferedReader.readLine();
             System.out.println(s);
@@ -37,7 +39,7 @@ public class lesson8 {
         bufferedReader.close();
 
         String result = "";
-        BufferedReader bufferedReader2 = new BufferedReader(new FileReader(path));
+        BufferedReader bufferedReader3= new BufferedReader(new FileReader(path));
         while (bufferedReader2.ready()) {
             result += (char) bufferedReader2.read();
         }
